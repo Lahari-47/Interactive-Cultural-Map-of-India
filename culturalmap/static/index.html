@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Interactive Cultural Map of India</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 40px;
+            background-color: #f4f4f4;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        select {
+            padding: 10px;
+            font-size: 16px;
+        }
+        #output {
+            margin-top: 20px;
+            padding: 15px;
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 0 10px #ccc;
+        }
+    </style>
+</head>
+<body>
+    <h1>Explore Indian Culture by State</h1>
+
+    <label for="stateSelect">Choose a state:</label>
+    <select id="stateSelect">
+        <option value="">-- Select State --</option>
+        <option value="Andhra Pradesh">Andhra Pradesh</option>
+        <option value="Tamil Nadu">Tamil Nadu</option>
+        <option value="Rajasthan">Rajasthan</option>
+        <option value="Punjab">Punjab</option>
+    </select>
+
+    <div id="output"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
